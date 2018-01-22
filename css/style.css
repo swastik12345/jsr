@@ -94,7 +94,10 @@ a {
   background-size: cover !important;
 }
 
-
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
 
 /*---------------------------------------
     Preloader section              
@@ -150,6 +153,7 @@ a {
     border-bottom: 2px solid #f9f9f9;
     box-shadow: none;
     margin: 0 !important;
+
 }
 
 .navbar-default .navbar-brand {
@@ -158,6 +162,10 @@ a {
   font-weight: bold;
   line-height: 50px;
   margin: 0;
+}
+.navbar-default .navbar-brand img{
+    width: 100%;
+    height: auto;
 }
 
 .navbar-default .navbar-nav li a {
@@ -459,6 +467,12 @@ td{
 #table1 input[type="submit"]:hover {
   background: #ffffff;
   color: #26253a;
+}
+
+#about{
+    background-color: black;
+    color: whitesmoke;
+    align-content: center;
 }
 
 
